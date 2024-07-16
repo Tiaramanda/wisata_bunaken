@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.img-header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    opacity: 80%;
+}
+
+.img-header img {
+    width: 20%;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.menu-header a {
+    flex: 1;
+    text-decoration: none;
+    background-color: #0288d1;
+    color: white;
+    padding: 1%;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.menu-header a:hover {
+    background-color: rgb(202, 199, 199);
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paket-container {
+    width: 300px;
+    margin: 10px;
+}
+
+.paket-container h3 {
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paket-container h4 {
+    color: rgb(149, 147, 147);
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paket-container img {
+    width: 100%;
+}
+
+.video-container {
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto;
+}
+
+.search-container {
+    margin-bottom: 10px;
+}
+
+.search-container input[type='text'] {
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.search-container input[type='submit'] {
+    padding: 3px;
+}
+
+.brand-container {
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.brand-container h1 {
+    color: white;
+    font-size: 4.5vw;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Sedan SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding: 3%;
+}
+
+.brand-container h2 {
+    color: white;
+    font-family: "Margarine", sans-serif;
+    font-size: 3.5vw;
+    text-shadow: 2px 2px 8px black;
+
+}
+
+.brand-container h3 {
+    color: white;
+    font-size: 2.0vw;
+    text-shadow: 2px 2px 8px black;
+}
+
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
